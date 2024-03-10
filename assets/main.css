@@ -46,6 +46,14 @@
   height: 32px;
 }
 
+.d-none {
+  display: none !important;
+}
+
+.svg-container {
+  padding-bottom: 16px; /* Adds padding around the image */
+}
+
 /**
  * Reset some basic elements
  */
@@ -89,6 +97,23 @@ table {
   width: 100%;
   margin: 0 0 20px 0;
   text-align: left;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 4px;
+  vertical-align: top;
+}
+table th {
+  border-bottom: 2px solid #dddddd;
+}
+table td {
+  padding-left: 8px;
+  border-bottom: 1px solid #dddddd;
+}
+table .title {
+  padding-left: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /**
@@ -283,19 +308,19 @@ pre > code {
 .wrapper .anchor-heading svg {
   position: absolute;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   color: #2869e6;
   opacity: 0;
-  padding-top: 12px;
-  padding-left: 4px;
+  padding-top: 10px;
+  padding-left: 8px;
 }
 @media screen and (max-width: 800px) {
   .wrapper .anchor-heading svg {
-    width: 16px;
-    height: 16px;
-    padding-top: 16px;
-    padding-left: 0px;
+    width: 12px;
+    height: 12px;
+    padding-top: 12px;
+    padding-left: 2px;
   }
 }
 .wrapper .anchor-heading:hover svg,
@@ -720,6 +745,21 @@ pre > code {
 }
 .highlight .w {
   color: #727272;
+}
+
+.organizer {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  max-width: 100%;
+}
+.organizer .organizer-image {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+.organizer p,
+.organizer .organizer-name {
+  margin: 4px !important;
 }
 
 /*# sourceMappingURL=main.css.map */
