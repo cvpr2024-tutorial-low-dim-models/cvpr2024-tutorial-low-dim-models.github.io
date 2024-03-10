@@ -99,8 +99,16 @@ announced.
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 Introduction to Basic Low-Dimensional Models
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+The first part will introduce fundamental properties and results for sensing, processing, analyzing, and learning low-dimensional structures from high-dimensional data. We will first discuss classical low-dimensional models, such as sparse coding and low-rank matrix sensing, and motivate these models by applications in computer vision. Based on convex relaxation, we will characterize the conditions, in terms of sample/data complexity, under which the learning problems of recovering such low-dimensional structures become tractable and can be solved efficiently, with guaranteed correctness or accuracy.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://people.eecs.berkeley.edu/~yima/">Yi Ma</a>
@@ -110,8 +118,22 @@ Introduction to Basic Low-Dimensional Models
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 Introduction to Low-Dimensional Models in Deep Learning
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+Next, we delve into the core principles of low-dimensional models within
+various neural network architectures. Specifically, we will introduce
+<em>unrolled optimization</em> as a design principle for interpretable deep
+networks. As a simple special case, we will examine several unrolled
+optimization algorithms for sparse coding, and show that they exhibit striking
+similarities to current deep network architectures. These unrolled networks are
+white-box and interpretable <em>ab initio</em>.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://sites.google.com/view/yuqianzhang">Yuqian Zhang</a>
@@ -126,8 +148,16 @@ Introduction to Low-Dimensional Models in Deep Learning
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 Understanding Low-Dimensional Representation via Neural Collapse
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+The session focuses on the strong conceptual connections between low-dimensional structures and deep models in terms of learned representation. We start with the introduction of an intriguing Neural Collapse phenomenon in the last-layer representation and its universality in deep network, and lays out the mathematical foundations of understanding its cause by studying its optimization landscapes. We then generalize and explain this phenomenon and its implications under data imbalancedness. Furthermore, we demonstrate the practical algorithmic implications of Neural Collapse on training deep neural networks.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://cse.osu.edu/people/zhu.3440">Zhihui Zhu</a>
@@ -137,8 +167,16 @@ Understanding Low-Dimensional Representation via Neural Collapse
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 Invariant Low-Dimensional Subspaces of Learning Dynamics
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+Second, we show that low-dimensional structures also emerge in training dynamics of deep networks. Specifically, we show that the evolution of gradient descent only affects a minimal portion of singular vector spaces across all weight matrices. The analysis enables us to considerably improve training efficiency by taking advantage of the low-dimensional structure in learning dynamics. We can construct smaller, equivalent deep linear networks without sacrificing the benefits associated with the wider counterparts. Moreover, it allows us to better understand deep representation learning by elucidating the progressive feature compression and discrimination from shallow to deep layers.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://qingqu.engin.umich.edu/">Qing Qu</a>
@@ -153,8 +191,27 @@ Invariant Low-Dimensional Subspaces of Learning Dynamics
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+In this part, we will focus on the special yet highly useful case of learning
+the data distribution and transforming it to an <em>linear discriminative
+representation</em> (LDR). We will discuss the information theoretic and
+statistical principles behind such a representation, and design a loss
+function, called the <em>coding rate reduction</em>, which is optimized at such
+a representation. By unrolling the gradient ascent on the coding rate
+reduction, we will construct a deep network architecture, called the ReduNet,
+where each operator in the network has a mathematically precise (hence
+white-box and interpretable) function in the transformation of the data
+distribution towards an LDR. Also, the ReduNet may be constructed layer-wise in
+a forward-propagation manner, that is, without <em>any</em> back-propagation
+required.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://people.eecs.berkeley.edu/~yima/">Yi Ma</a>
@@ -164,8 +221,27 @@ ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reductio
 </td>
 </tr>
 <tr>
-<td markdown="span">
+<td>
 White-Box Transformers via Sparse Rate Reduction
+<br>
+<a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
+<br>
+<div class="abstract hidden">
+<p>
+In the final part, we demonstrate how combining sparse coding and rate
+reduction yields "sparse linear discriminative representations" using an
+objective called sparse rate reduction. We develop CRATE, a deep network
+architecture, by unrolling the optimization of this objective and
+parameterizing feature distribution in each layer. CRATE's operators are
+mathematically interpretable, with each layer representing an optimization
+step, making the network a transparent "white box". Although CRATE's design
+significantly differs from ReduNet, both aim for a similar goal, showcasing the
+versatility of the unrolled optimization approach. Remarkably, CRATE closely
+resembles the transformer architecture, suggesting that the interpretability
+gains from such networks might also improve our understanding of current,
+practical deep architectures.
+</p>
+</div>
 </td>
 <td markdown="span">
   <a href="https://sdbuchanan.com">Sam Buchanan</a>

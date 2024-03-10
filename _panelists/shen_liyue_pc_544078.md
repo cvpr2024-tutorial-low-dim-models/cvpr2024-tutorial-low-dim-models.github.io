@@ -1,7 +1,7 @@
 ---
 name: Liyue Shen
 role: Publicity Chair
-affiliation: University of Michigan
+affiliation: UMichigan
 website: https://liyueshen.engin.umich.edu/
 photo: shen-liyue.jpeg
 ---
