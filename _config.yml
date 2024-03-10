@@ -15,12 +15,29 @@ permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
 
+# Collections
+collections:
+  organizers:
+  panelists:
+
 # Default layouts for each collection type
 defaults:
   - scope:
       path: ''
+      type: organizers
     values:
-      image: /assets/sam-2023.jpeg
+      layout: organizer
+      subpath: '/assets/images/'
+  - scope:
+      path: ''
+      type: panelists
+    values:
+      layout: organizer
+      subpath: '/assets/images/'
+  # - scope:
+  #     path: ''
+  #   values:
+  #     image: /assets/sam-2023.jpeg
 
 jquery:
   version: "3.5.1"
