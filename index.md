@@ -1,5 +1,7 @@
 ---
 layout: default
+twitter_card:
+  type: summary_large_image
 ---
 
 {% include title.html %}
