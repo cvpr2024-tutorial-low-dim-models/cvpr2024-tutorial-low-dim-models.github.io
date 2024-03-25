@@ -76,8 +76,7 @@ vision.
 
 ## Schedule
 
-This tentative schedule will be updated when the full CVPR schedule is
-announced.
+The tutorial will take place on **Tuesday, June 18th**.
 
 <table>
 <colgroup>
