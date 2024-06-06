@@ -1,6 +1,6 @@
 ---
 name: Yaodong Yu
-affiliation: UC Berkeley<br>UMD
+affiliation: UMD
 website: https://yaodongyu.github.io/
 photo: yyu.jpg
 ---
