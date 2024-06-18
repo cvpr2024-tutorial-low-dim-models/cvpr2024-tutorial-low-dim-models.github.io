@@ -123,7 +123,7 @@ The tutorial will take place on **Tuesday, June 18th**.
 </tr>
 <tr>
 <td>
-Introduction to Basic Low-Dimensional Models
+Lecture 1-1: Introduction to Basic Low-Dimensional Models
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -142,7 +142,7 @@ The first part will introduce fundamental properties and results for sensing, pr
 </tr>
 <tr>
 <td>
-Understanding Low-Dimensional Representation via Neural Collapse
+Lecture 1-2: Understanding Low-Dimensional Representation via Neural Collapse
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -161,7 +161,7 @@ Continuing, we focus on the strong conceptual connections between low-dimensiona
 </tr>
 <tr>
 <td>
-Invariant Low-Dimensional Subspaces of Learning Dynamics
+Lecture 1-3: Invariant Low-Dimensional Subspaces of Learning Dynamics
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -185,7 +185,7 @@ We show that low-dimensional structures also emerge in training dynamics of deep
 </tr>
 <tr>
 <td>
-Low-Dimensional Representation Learning for High-Dimensional Data via the Principle of Compression
+Lecture 2-1: Low-Dimensional Representation Learning for High-Dimensional Data via the Principle of Compression
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -204,7 +204,7 @@ In this part, we will discuss the overall objective of high-dimensional data ana
 </tr>
 <tr>
 <td>
-White-Box Architecture Design via Unrolled Optimization and Compression
+Lecture 2-2: White-Box Architecture Design via Unrolled Optimization and Compression
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -223,7 +223,7 @@ In this part, we will focus on how to construct white-box deep neural network ar
 </tr>
 <tr>
 <td>
-White-Box Transformers via Sparse Rate Reduction
+Lecture 2-3: White-Box Transformers via Sparse Rate Reduction
 <br>
 <a class="abstract btn btn-sm z-depth-0" role="button" style="color:#959396;">(Lecture Abstract)</a>
 <br>
@@ -253,4 +253,5 @@ We demonstrate how combining sparse coding and rate reduction yields sparse line
 
 ## Materials
 
-Slides and recordings will be posted here after the event.
+Slides for the tutorial are available at [this Dropbox
+link](https://www.dropbox.com/scl/fo/7m57krmeordlohel4qxye/AKho1GYbOe0AbBlKNzm28Vk?rlkey=le2yuel4ipq50xhzxmyxxczxi&e=3&dl=0).
